@@ -1,0 +1,209 @@
+/* Fonts used */
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+/* font-family: 'Fredericka the Great', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Formatting for the body */
+body{
+    
+    color: white;
+    background: url("assets/background1.jpg");
+    background-size: cover;
+    
+}
+/* title of the page */
+/* logo design */
+.logo{
+
+}
+
+/* game name design */
+h1{
+    font-family: AKRONIM REGULAR;
+    font-size: 110px;
+    text-align: center;
+    color: white;
+}
+
+/* tagline design */
+h3{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Fruktur', cursive;
+    letter-spacing: 35px;
+    position: relative;
+    bottom: 45px;
+
+}
+/* user inputs */
+#userPallete{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nameInput{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px;
+    height: 200px;
+    width: 530px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#selection{
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 50px;
+    height: 300px;
+    width: 800px;
+    margin-top: 10px;
+    /* display: flex; */
+    justify-content:space-evenly;
+    text-align: center;
+}
+h4{
+    letter-spacing: 15px;
+    margin-left: 50px;
+    font-family: 'Joti One', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+#optionSection{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 25px;
+    letter-spacing: 2px;
+    
+}
+ 
+.optionBox{
+    background-color: white;
+    border-radius: 28px;
+    height: 210px;
+    width: 200px;
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+#english{
+    background-color: rgb(233, 100, 195, 0.8);
+
+}
+#hindi{
+    background-color: rgb(100, 233, 161,0.8);
+    
+}
+#punjabi{
+    background-color: rgb(100, 161, 233, 0.8);
+
+}
+.coverImage{
+    height: 140px;
+    width: 150px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    justify-content: center;
+}
+#userPallete{
+    font-family: 'Rubik Moonrocks', cursive;
+    
+}
+#nameInput{
+    font-size: 55px;
+    position: relative;
+    right: 15px;
+}
+#name{
+    position: relative;
+    left: 15px;
+    top: 15px;
+    line-height: 75px;
+
+}
+input{
+    height: 45px;
+    width: 170px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Rammetto One', cursive;
+}
+/* #button{
+    height: 50px;
+    width: 450px;
+    background-color: white;
+    margin-top: 80px;
+    margin-left: 35px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 35px;
+    letter-spacing: 15px; 
+} */
+
+    
+button {
+    
+    height: 50px;
+    width: 450px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 35px;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 35px;
+    letter-spacing: 15px;
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    border-color: white;
+}
+button:hover {
+    color: transparent;
+    transition: 500ms ease;
+}
+/* Instructions pannel styling */
+#instructionPannel{
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 50px;
+    height: 200px;
+    width: 1200px;
+    margin-left: 150px;
+    margin-top: 10px;
+    color: black;
+    
+    
+}
+#instruction1{
+    letter-spacing: 20px;
+    font-family: 'Fruktur', cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+#instruction2 ul{
+    list-style: none;
+    margin-left: 55px;
+    font-family: 'Pacifico', cursive;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
